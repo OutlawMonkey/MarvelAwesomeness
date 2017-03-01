@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.outlawmonkey.marvelawesomeness</id>
+    <name>MarvelAwesomeness</name>
+    <version>1.0</version>
+    <publisher>OutlawMonkey</publisher>
+    <url>http://www.outlawmonkey.com</url>
+    <description>undefined</description>
+    <copyright>2017 by OutlawMonkey</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>8a6c8924-a5b3-45e2-9444-a2145da4ab3e</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>6.0.2.GA</sdk-version>
+    <property name="appc-app-id" type="string">58b0ad4d21cf1b954fac12b9</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">eb3TpClpWNVyMfGcURlZU5Z6YO5p3B3V</property>
+    <property name="acs-oauth-key-development" type="string">7snDOTHb3F5xJxvseVC8nBo51ds4ENJC</property>
+    <property name="acs-api-key-development" type="string">VeY3GB0UhJXs47rSuhadTevxNmTprrtB</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">xvLrbZe7FGnyG8SypM</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">cnoIhN8mxexKk0I6O5n3NpxOC6oPgfEZ</property>
+    <property name="acs-oauth-key-production" type="string">LrR9yAakKJyUDMU4jOBoPqlc3cKicDLY</property>
+    <property name="acs-api-key-production" type="string">l8ILj07y0EoZgUh0zNcPs1bcp03GPumi</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">3gjlpx2UZuU2KHlNEq</property>
+    <property name="appc-org-id" type="string">100031975</property>
+    <property name="appc-creator-user-id" type="string">24aa5617-e34e-4d85-9437-0770b5148c49</property>
+</ti:app>
